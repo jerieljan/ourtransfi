@@ -14,3 +14,7 @@ The repository for the Wordpress setup is also in git, but not in GitHub.
 - jQuery
 - Twitter Bootstrap: Common web framework for layouts and common web elements
 - AngularJS
+
+## Deployment
+
+Use the sync.sh script to deploy the application. You'll need the right key configuration to do this.
