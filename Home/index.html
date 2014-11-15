@@ -22,18 +22,19 @@
         }
     </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/ourtransfi.css">
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400'
           rel='stylesheet' type='text/css'>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <link rel="stylesheet" href="css/ourtransfi.css">
 </head>
 <body>
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
         href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-fixed-top" role="navigation" id="navigation-bar">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -45,68 +46,175 @@
             </button>
             <a class="navbar-brand" href="#">Transfiguration of Christ Parish</a>
         </div>
+        <div class="collapse navbar-collapse" id="navbar-links">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Liturgical Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <div class="container">
-        <h1>The Transfiguration of Christ Parish</h1>
+<div class="jumbotron section" id="section-1" style="padding-top: 450px">
+    <div class="container backtext">
+        <h1>The Transfiguration<br/>of Christ Parish</h1>
 
-        <p>This site is currently undergoing construction.</p>
-
-        <p><a class="btn btn-primary btn-lg" role="button"
-              href="http://www.facebook.com/ourtransfi">Visit our Facebook &raquo;</a></p>
+        <p>M.L. Quezon St. Ext., Brgy San Roque, Antipolo City</p>
     </div>
 </div>
 
-<div class="container">
-    <div class="col-md-6">
-        <h2>About</h2>
+<div class="container" style="padding-bottom: 32px">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>About the Parish</h2>
 
         <p>The Transfiguration of Christ Parish is relatively a new parish in the Diocese of
             Antipolo, having been canonically erected on December 12, 2002. The parish church is
             located along M.L. Quezon St. Ext., Brgy San Roque, Antipolo City.</p>
-
-        <h2>Mission</h2>
-
-        <p>Vision of the ToCP: "Isang Sambayanang Katoliko sa Diyosesis ng Antipolo na binubuo ng
-            mga Munting Sambayanang Katoliko na hinuhubog sa pagbibiyaya at pagtawag ng Ebanghelyo
-            -- sumasaksi sa pananampalataya, pagmamahalan, pagkakaisa, pagdadamayan at pagiging
-            mabuting tagapangasiwa sa mga kaloob ng Diyos -- upang matugunan ang pangangailangan ng
-            sangnilikha at makamit ang paghahari ng Diyos sa kanilang piling."</p>
-    </div>
-    <div class="col-md-6">
-        <h2>General Information</h2>
         <ul>
-            <li>Parish Church dedicated on 12 December 2012.</li>
-            <li>Dedication Rites presided by Most Rev. Francisco de Leon, DD (Auxiliary Bishop of
+            <li>The parish Church was dedicated on December 12, 2012.</li>
+            <li>Dedication Rites were presided by Most Rev. Francisco de Leon, DD (Auxiliary Bishop
+                of
                 Antipolo) together with Most Rev. Roberto Mallari (Bishop of San Jose, Nueva Ecija)
                 & Most Rev. Jose Rojas (Bishop of Libmanan, Camarines Sur).
             </li>
-            <li>Parish has its own Columbarium & Lazarus' Memorial Chapels.</li>
-        </ul>
-
-        <h2>Liturgical Services</h2>
-        <ul>
-            <li>Sunday Masses - 6:30 am / 8:00 am / 9:30 am / 5:00 pm / 6:30 pm</li>
-            <li>Saturday (Anticipated Sunday Mass) - 6:00 pm</li>
-            <li>Daily Mass (Monday to Saturday) - 6:15 am</li>
-            <li>Every Wednesday & First Friday - 6:00 pm</li>
-            <li>Baptism - Every Sunday at 11:30 am</li>
-            <li>Please inquire at the Parish Office for other services.</li>
+            <li>The parish has its own Columbarium & Lazarus' Memorial Chapels.</li>
         </ul>
     </div>
-    <hr>
+</div>
 
-    <footer>
-        <p>Made using Twitter Bootstrap</p>
-    </footer>
+
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/1.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/2.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/3.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/4.jpg">
+        </a>
+    </div>
+</div>
+
+<div class="jumbotron section" id="section-2">
+    <div class="container backtext">
+        <div class="col-md-offset-6" style="text-align: right">
+            <h2>Mission</h2>
+
+            <p>"Isang Sambayanang Katoliko sa Diyosesis ng Antipolo na binubuo ng
+                mga Munting Sambayanang Katoliko na hinuhubog sa pagbibiyaya at pagtawag ng
+                Ebanghelyo
+                -- sumasaksi sa pananampalataya, pagmamahalan, pagkakaisa, pagdadamayan at pagiging
+                mabuting tagapangasiwa sa mga kaloob ng Diyos -- upang matugunan ang pangangailangan
+                ng
+                sangnilikha at makamit ang paghahari ng Diyos sa kanilang piling."</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>Liturgical Services</h2>
+
+        <h3>Sunday Masses</h3>
+        Masses are available during:
+        <ul>
+            <li>6:30 am</li>
+            <li>8:00 am</li>
+            <li>9:30 am</li>
+            <li>5:00 pm</li>
+            <li>6:30 pm</li>
+        </ul>
+
+        <h3>Saturday Mass (Anticipated Mass)</h3>
+        Saturday masses are held at 6:00 pm.
+
+        <h3>Daily Mass</h3>
+        Daily masses are held at 6:15 am, from Monday to Saturday.
+        <br/>Masses are also held at 6:00 pm every Wednesday and the first Friday of the month.
+
+        <h3>Baptism</h3>
+        Baptismal arrangements are available every Sunday at 11:30 pm.
+
+        <p>For other services, please inquire at the Parish Office.</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/5.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/6.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/7.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/8.jpg">
+        </a>
+    </div>
+</div>
+
+<div class="jumbotron section" id="section-3" style="padding-top: 750px">
+    <div class="container backtext">
+        <div class="col-md-offset-6" style="text-align: right">
+        </div>
+    </div>
+</div>
+
+<div class="row center-block">
+    <div class="col-xs-12 col-md-6 col-md-offset-3">
+        <a class="btn btn-primary center-block btn-lg" role="button"
+           href="http://news.ourtransfi.org" style="font-size: x-large">Proceed to News and Announcements</a>
+    </div>
+</div>
+
+<hr/>
+
+<div class="container">
+    <div class="col-md-6">
+        <h2>Facebook and Social</h2>
+        <p>Like us on Facebook!</p>
+        <a class="btn btn-primary" role="button"
+           href="http://www.facebook.com/ourtransfi">facebook.com/ourtransfi</a>
+
+
+    </div>
+    <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <p>Contact us via telephone: (02) 570-2722 or leave a message on our Facebook page.</p>
+        <a class="btn btn-default" role="button" href="https://www.google.com.ph/maps/place/Transfiguration+Of+Christ+Parish/@14.5632215,121.1836781,18z/data=!4m2!3m1!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631?hl=en">Navigate via Google Maps</a>
+    </div>
+</div>
+
+<div class="container-fluid" id="map-canvas" style="margin-top: 32px">
+
 </div>
 <!-- /container -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script src="js/bootstrap.min.js"></script>
-
 <script src="js/main.js"></script>
 </body>
 </html>
