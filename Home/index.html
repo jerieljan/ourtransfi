@@ -21,6 +21,7 @@
             padding-bottom: 20px;
         }
     </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400'
@@ -56,13 +57,44 @@
     </div>
 </div>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron section" id="section-1" style="padding-top: 450px">
-    <div class="container backtext">
-        <h1>The Transfiguration<br/>of Christ Parish</h1>
+<div id="transfi-carousel-1" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#transfi-carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#transfi-carousel-1" data-slide-to="1"></li>
+        <li data-target="#transfi-carousel-1" data-slide-to="2"></li>
+    </ol>
 
-        <p>M.L. Quezon St. Ext., Brgy San Roque, Antipolo City</p>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active section" style="background-image: url('images/image-01a.jpg'); padding-top: 750px">
+            <div class="carousel-caption jumbotron backtext">
+                <h1>The Transfiguration<br/>of Christ Parish</h1>
+
+                <p>M.L. Quezon St. Ext., Brgy San Roque, Antipolo City</p>
+            </div>
+        </div>
+        <div class="item section" style="background-image: url('images/header-1.jpg'); padding-top: 750px">
+        </div>
+        <div class="item section" style="background-image: url('images/image-01b.jpg'); padding-top: 750px">
+            <div class="carousel-caption jumbotron backtext">
+                <h1>The Transfiguration<br/>of Christ Parish</h1>
+
+                <p>M.L. Quezon St. Ext., Brgy San Roque, Antipolo City</p>
+            </div>
+        </div>
+        ...
     </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#transfi-carousel-1" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#transfi-carousel-1" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
 <div class="container" style="padding-bottom: 32px">

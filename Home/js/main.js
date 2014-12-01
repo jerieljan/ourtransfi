@@ -1,7 +1,6 @@
 var seed = Math.floor(Math.random() * 10) % 2;
 
 var elements = [
-    {"element": "#section-1", "images": ['image-01a.jpg', 'image-01b.jpg']},
     {"element": "#section-2", "images": ['image-02a.jpg', 'image-02b.jpg']},
     {"element": "#section-3", "images": ['image-03a.jpg', 'image-03b.jpg']}
 ];
