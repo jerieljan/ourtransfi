@@ -1,3 +1,8 @@
+/**
+ * Randomize Jumbotron images.
+ * @type {number}
+ */
+
 var seed = Math.floor(Math.random() * 10) % 2;
 
 var elements = [
@@ -9,6 +14,10 @@ $(document).ready(function () {
         $(elements[item].element).css("background-image", "url('../images/" + elements[item].images[seed] + "')");
     }
 });
+
+/**
+ * Apply Google Maps onto map-canvas
+ */
 
 var map;
 function initialize() {
