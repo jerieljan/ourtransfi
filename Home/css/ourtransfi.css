@@ -3,7 +3,11 @@ body {
     letter-spacing: -0.60px;
     font-size: 150%;
     text-rendering: optimizeLegibility;
-    padding-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #428bca;
 }
 
 .backtext {
@@ -46,6 +50,7 @@ body {
 
 .nav .active {
     border-bottom: 5px solid #428bca;
+    /*background-color: #a2c5b4;*/
 }
 
 #footer {
