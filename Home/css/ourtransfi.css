@@ -58,3 +58,9 @@ body {
     background-color: #3e3e3e;
     color: #ffffff;
 }
+
+.attribution {
+    font-size: 10px;
+    font-style: italic;
+    color: #808080;
+}
