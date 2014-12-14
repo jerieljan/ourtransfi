@@ -30,3 +30,22 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+/**
+ * JS Smooth Scrolling - CSS-Tricks (http://css-tricks.com/snippets/jquery/smooth-scrolling/)
+ * Minor edits: Adjusted offset due to the navbar (-80) and speed (1000 -> 650)
+ */
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 80
+                }, 650);
+                return false;
+            }
+        }
+    });
+});

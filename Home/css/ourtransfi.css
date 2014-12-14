@@ -3,6 +3,7 @@ body {
     letter-spacing: -0.60px;
     font-size: 150%;
     text-rendering: optimizeLegibility;
+    padding-bottom: 0;
 }
 
 .backtext {
@@ -41,4 +42,14 @@ body {
 
 #map-canvas {
     height: 550px;
+}
+
+.nav .active {
+    border-bottom: 5px solid #428bca;
+}
+
+#footer {
+    margin-top: 125px;
+    background-color: #3e3e3e;
+    color: #ffffff;
 }
