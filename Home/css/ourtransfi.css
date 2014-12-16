@@ -5,6 +5,9 @@ body {
     text-rendering: optimizeLegibility;
     padding-bottom: 50px;
 }
+.navbar-brand {
+    font-family: 'Open Sans Semibold', Helvetica, Arial, sans-serif;
+}
 
 .navbar-toggle .icon-bar {
     background-color: #428bca;
