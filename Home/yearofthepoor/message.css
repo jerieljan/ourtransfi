@@ -1,0 +1,16 @@
+
+.bodytext {
+    font-family: 'Gentium Book Basic', 'Charter', serif;
+    font-size: 175%;
+}
+
+.bodytext h1, h2 {
+    font-style: italic;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+
+p {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
