@@ -25,7 +25,7 @@ layout: base
         <span itemprop="postalCode" content="{{ site.address_postalCode }}"></span>
     </div>
     <span itemprop="email" content="{{ site.email }}"></span>
-    <span itemprop="logo" content="http://www.ourtransfi.org/images/TOCP-Logo-Web.png"></span>
+    <span itemprop="logo" content="/images/TOCP-Logo-Web.png"></span>
     <span itemprop="telephone" content="{{ site.contact }}"></span>
     <span itemprop="url" content="{{ site.url }}"></span>
 </div>
@@ -45,12 +45,12 @@ layout: base
         </div>
         <div class="collapse navbar-collapse" id="navbar-links">
             <ul class="nav navbar-nav">
-                <li><a href="http://www.ourtransfi.org/lent2015/">Lent 2015</a></li>
+                <li><a href="/lent2015">Lent 2015</a></li>
                 <li><a href="#whats-new">What's New</a></li>
                 <li><a href="#about-parish">About</a></li>
                 <li><a href="#schedules">Schedules</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
-                <li><a href="http://www.ourtransfi.org/wordoflife/">Word of Life</a></li>
+                <li><a href="/wordoflife">Word of Life</a></li>
             </ul>
         </div>
     </div>
@@ -263,10 +263,10 @@ layout: base
         <h2 id="contact-us">Contact Us</h2>
 
         <p>For general inquiries and concerns, contact us via our telephone number (available every day, except Monday):
-            <br/><span style="font-weight: bold">(02) 570-2722</span>
+            <br/><span style="font-weight: bold">{{ site.contact }}</span>
             <br/>You can also contact us by leaving a message on our Facebook page.</p>
 
-        <p>You can also email <a href="mailto:admin@ourtransfi.org">admin@ourtransfi.org</a>.
+        <p>You can also email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
             <br/><span style="font-weight: bold">Feedback is highly appreciated!</span></p>
         <a class="btn btn-primary" role="button"
            href="http://www.facebook.com/ourtransfi">facebook.com/ourtransfi</a>
@@ -277,7 +277,7 @@ layout: base
             City, Rizal. For convenience, refer to the Google Map on the right, or click the button
             below to view it in Google Maps.</p>
         <a class="btn btn-default" role="button"
-           href="https://www.google.com.ph/maps/place/Transfiguration+Of+Christ+Parish/@14.5632215,121.1836781,18z/data=!4m2!3m1!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631?hl=en">Navigate
+           href="https://www.google.com.ph/maps/place/Transfiguration+Of+Christ+Parish/@{{ site.address_latitude }} , {{ site.address_longitude }},18z/data=!4m2!3m1!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631?hl=en">Navigate
             via Google Maps</a>
 
         <p></p>
