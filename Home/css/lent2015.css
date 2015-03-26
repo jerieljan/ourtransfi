@@ -1,0 +1,11 @@
+.sched-date {
+    font-weight: 700;
+    font-size: 120%;
+}
+#schedule p {
+    padding-top: 32px;
+}
+
+.sched-title {
+    font-weight: 600;
+}
