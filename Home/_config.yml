@@ -1,0 +1,25 @@
+# Site settings
+
+title: The Transfiguration of Christ Parish
+email: admin@ourtransfi.org
+contact: (02) 570-2722
+webmaster: Jeriel Jan del Prado
+description: > # this means to ignore newlines until "baseurl:"
+     The Transfiguration of Christ Parish is relatively a new parish in the Diocese of
+     Antipolo, having been canonically erected on December 12, 2002. The parish church is
+     located along M.L. Quezon St. Ext., Brgy San Roque, Antipolo City.
+baseurl: "" # the subpath of your site, e.g. /news/
+url: "http://www.ourtransfi.org" # the base hostname & protocol for your site
+
+address_street: M.L. Quezon St. Ext., Brgy San Roque
+address_locality: Antipolo City
+address_region: Rizal
+address_countryCode: PH
+address_postalCode: 1870
+address_latitude: 14.563128
+address_longitude: 121.183426
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty

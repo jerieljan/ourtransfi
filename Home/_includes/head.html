@@ -1,0 +1,38 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Basic Page Information -->
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description"
+          content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta name="author" content="{{ site.webmaster }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Facebook Open Graph Metadata -->
+    <meta property="og:title"
+          content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:description"
+          content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+    {% if page.icon %}
+    <meta property="og:image" content="{{ page.icon }}"/>
+    {% endif %}
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet'
+          type='text/css'>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <link rel="stylesheet" href="/css/ourtransfi.css">
+</head>

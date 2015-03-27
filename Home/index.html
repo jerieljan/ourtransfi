@@ -1,50 +1,7 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+layout: base
+---
 
-    <!-- Basic Page Information -->
-    <title>The Transfiguration of Christ Parish</title>
-    <meta name="description"
-          content="The Transfiguration of Christ Parish is relatively a new parish in the Diocese of
-            Antipolo, having been canonically erected on December 12, 2002. The parish church is
-            located along M.L. Quezon St. Ext., Brgy San Roque, Antipolo City."/>
-    <meta name="author" content="Jeriel Jan del Prado"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Facebook Open Graph Metadata -->
-    <meta property="og:title" content="The Transfiguration of Christ Parish"/>
-    <meta property="og:site_name" content="The Transfiguration of Christ Parish"/>
-    <meta property="og:url" content="http://www.ourtransfi.org">
-    <meta property="og:description" content="The Transfiguration of Christ Parish is relatively a new parish in the Diocese of
-            Antipolo, having been canonically erected on December 12, 2002. The parish church is
-            located along M.L. Quezon St. Ext., Brgy San Roque, Antipolo City."/>
-    <meta property="og:image" content="http://www.ourtransfi.org/images/image-01a.jpg"/>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet'
-          type='text/css'>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
-    <link rel="stylesheet" href="css/ourtransfi.css">
-</head>
 <body data-spy="scroll" data-target="#navbar-links" data-offset="90">
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
@@ -53,24 +10,24 @@
 
 <!-- Schema.org + Rich Snippets Metadata -->
 <div itemscope itemtype="http://schema.org/Organization" style="display: none">
-    <span itemprop="name" content="The Transfiguration of Christ Parish"></span>
+    <span itemprop="name" content="{{ site.title }}"></span>
     <div itemprop="location" itemscope itemtype="http://schema.org/Place">
           <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-              <span itemprop="latitude" content="14.563128"></span>
-              <span itemprop="longitude" content="121.183426"></span>
+              <span itemprop="latitude" content="{{ site.address_latitude }}"></span>
+              <span itemprop="longitude" content="{{ site.address_longitude }}"></span>
           </div>
     </div>
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span itemprop="streetAddress" content="M.L. Quezon St. Ext., Brgy San Roque"></span>,
-        <span itemprop="addressLocality" content="Antipolo City"></span>
-        <span itemprop="addressRegion" content="Rizal"></span>.
-        <span itemprop="addressCountry" content="PH"></span>
-        <span itemprop="postalCode" content="1870"></span>
+        <span itemprop="streetAddress" content="{{ site.address_street }}"></span>,
+        <span itemprop="addressLocality" content="{{ site.address_locality }}"></span>
+        <span itemprop="addressRegion" content="{{ site.address_region }}"></span>.
+        <span itemprop="addressCountry" content="{{ site.address_countryCode }}"></span>
+        <span itemprop="postalCode" content="{{ site.address_postalCode }}"></span>
     </div>
-    <span itemprop="email" content="admin@ourtransfi.org"></span>
-    <span itemprop="logo" content="http://www.ourtransfi.org/images/TOCP-Logo-Web.png"></span>
-    <span itemprop="telephone" content="(02) 570-2722"></span>
-    <span itemprop="url" content="http://www.ourtransfi.org"></span>
+    <span itemprop="email" content="{{ site.email }}"></span>
+    <span itemprop="logo" content="/images/TOCP-Logo-Web.png"></span>
+    <span itemprop="telephone" content="{{ site.contact }}"></span>
+    <span itemprop="url" content="{{ site.url }}"></span>
 </div>
 
 <div class="navbar navbar-fixed-top" role="navigation" id="navigation-bar">
@@ -88,12 +45,12 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-links">
             <ul class="nav navbar-nav">
-                <li><a href="http://www.ourtransfi.org/lent2015/">Lent 2015</a></li>
+                <li><a href="/lent2015">Lent 2015</a></li>
                 <li><a href="#whats-new">What's New</a></li>
                 <li><a href="#about-parish">About</a></li>
                 <li><a href="#schedules">Schedules</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
-                <li><a href="http://www.ourtransfi.org/wordoflife/">Word of Life</a></li>
+                <li><a href="/wordoflife">Word of Life</a></li>
             </ul>
         </div>
     </div>
@@ -306,10 +263,10 @@
         <h2 id="contact-us">Contact Us</h2>
 
         <p>For general inquiries and concerns, contact us via our telephone number (available every day, except Monday):
-            <br/><span style="font-weight: bold">(02) 570-2722</span>
+            <br/><span style="font-weight: bold">{{ site.contact }}</span>
             <br/>You can also contact us by leaving a message on our Facebook page.</p>
 
-        <p>You can also email <a href="mailto:admin@ourtransfi.org">admin@ourtransfi.org</a>.
+        <p>You can also email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
             <br/><span style="font-weight: bold">Feedback is highly appreciated!</span></p>
         <a class="btn btn-primary" role="button"
            href="http://www.facebook.com/ourtransfi">facebook.com/ourtransfi</a>
@@ -320,7 +277,7 @@
             City, Rizal. For convenience, refer to the Google Map on the right, or click the button
             below to view it in Google Maps.</p>
         <a class="btn btn-default" role="button"
-           href="https://www.google.com.ph/maps/place/Transfiguration+Of+Christ+Parish/@14.5632215,121.1836781,18z/data=!4m2!3m1!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631?hl=en">Navigate
+           href="https://www.google.com.ph/maps/place/Transfiguration+Of+Christ+Parish/@{{ site.address_latitude }} , {{ site.address_longitude }},18z/data=!4m2!3m1!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631?hl=en">Navigate
             via Google Maps</a>
 
         <p></p>
@@ -339,35 +296,6 @@
     </div>
 </div>
 
-<!-- Footer -->
-<!--<div class="container-fluid" id="footer" style="text-align: center">-->
-<!--Made using Bootstrap-->
-<!--</div>-->
-
-<!-- /container -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-57620230-2', 'auto');
-    ga('send', 'pageview');
-
-</script>
+{% include footer.html %}
 
 </body>
-</html>
