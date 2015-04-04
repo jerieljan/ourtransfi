@@ -17,7 +17,7 @@
     <meta property="og:description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
     {% if page.icon %}
-    <meta property="og:image" content="{{ page.icon }}"/>
+    <meta property="og:image" content="http://www.ourtransfi.org{{ page.icon }}"/>
     {% endif %}
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">

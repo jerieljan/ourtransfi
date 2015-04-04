@@ -10,6 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
      located along M.L. Quezon St. Ext., Brgy San Roque, Antipolo City.
 baseurl: "" # the subpath of your site, e.g. /news/
 url: "http://www.ourtransfi.org" # the base hostname & protocol for your site
+icon: "/images/TOCP-Logo-Web.png"
 
 address_street: M.L. Quezon St. Ext., Brgy San Roque
 address_locality: Antipolo City
