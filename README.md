@@ -46,8 +46,8 @@ in `sync.sh`
 ## License 
 
 In terms of code content specific to the project 
-(excluding third-party libraries, image assets, written content and others), 
-OurTransfi is licensed under the GNU AGPLv3.
+(excluding third-party libraries, embedded content, image assets, written content and others), 
+OurTransfi itself is licensed under the GNU AGPLv3.
  
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
