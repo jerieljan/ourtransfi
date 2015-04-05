@@ -3,7 +3,7 @@ body {
     letter-spacing: -0.60px;
     font-size: 150%;
     text-rendering: optimizeLegibility;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 .navbar-brand {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -59,8 +59,10 @@ body {
 
 #footer {
     margin-top: 125px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #3e3e3e;
-    color: #ffffff;
+    color: #989898;
 }
 
 .attribution {
