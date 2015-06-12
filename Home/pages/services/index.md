@@ -124,3 +124,7 @@ while our college and theology seminarians are housed at various seminaries with
 	- Novenas every Wednesday, after 6:15am mass and 5:30 pm.
 - Our Lady of Czestochowa
 	- Every Saturday, after 6:15 am mass.
+	
+# Parish Calendar
+
+All parish events and ministry-related events are listed in the [Parish Calendar](/calendar/) 
