@@ -5,7 +5,7 @@ title: Downloads
 description: Various application forms for liturgical services are available here for download.
 subtext: Various application forms for liturgical services are available here for download.
 style: "background-color: #550"
-icon: "http://www.ourtransfi.org/images/header-3.jpg"
+icon: "/images/header-3.jpg"
 permalink: /downloads/
 
 ---

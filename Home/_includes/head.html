@@ -13,9 +13,9 @@
     <meta property="og:title"
           content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:site_name" content="{{ site.title }}"/>
-    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:url" content="{{ site.url }}{%if page.permalink %}{{ page.permalink }}{% endif %}">
     <meta property="og:description"
-          content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+          content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
     {% if page.icon %}
     <meta property="og:image" content="http://www.ourtransfi.org{{ page.icon }}"/>
     {% endif %}
