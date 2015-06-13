@@ -10,6 +10,10 @@ permalink: /services/
 
 ---
 
+# Masses
+
+For masses in the Parish and its outlying clusters, see the [Eucharist section](#eucharist) and the [Schedule of Devotions](#schedule-of-devotions).
+
 # Sacraments
 
 ## Baptism
@@ -143,3 +147,11 @@ Downloads:
 # Parish Calendar
 
 All parish events and ministry-related events are listed in the [Parish Calendar](/calendar/) 
+
+# Office Hours
+
+The Parish Office is open on the following hours:
+
+- Tuesday to Saturday, 8:00 am to 12:00 nn, 2:00 pm to 5:00 pm
+- Sundays at 9:00 am to 12:00 nn, 3:00 pm to 6:30 pm
+- No office on Mondays
