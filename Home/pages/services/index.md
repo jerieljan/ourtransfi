@@ -22,6 +22,8 @@ is celebrated every Sunday at 10:00 am. The average number of Children baptized 
 
 Solo Baptism is also accepted anytime during the week except Mondays and Sundays.
 
+Download: [Talaan ng Binyag](/files/documents/Talaan ng Binyag.doc) Application Form
+
 ## Reconciliation (Confession)
 
 The Sacrament of Reconciliation is celebrated regularly **after the 6:15 am mass from Monday to Saturday**
@@ -34,6 +36,8 @@ Parish. However, there are special catechetical classes for those to prepare the
 reception of the said sacrament.
 
 The reception of this sacrament is generally held on the **first Saturday of December every year.**
+
+Download: [Confirmation - Application Form](/files/documents/Confirmation - Application Form.doc)
 
 ## Eucharist
 
@@ -97,6 +101,11 @@ each message.
 - Weddings at 9:00 am, 11:00 am, 4:00 pm
 - Tuesdays to Saturdays only
 
+Downloads:
+
+- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.doc)
+- [Application Form](/files/documents/Matrimony - Application Form.doc)
+
 ## Holy Orders
 
 If you are interested in a vocation to the priesthood, religious or monastery life, the office
@@ -113,6 +122,12 @@ while our college and theology seminarians are housed at various seminaries with
 
 - Any time from Tuesday to Sunday
 - Please set an appointment with the Parish Office
+
+Downloads:
+
+- [Request for Blessing](/files/documents/Request for Blessing.doc)
+- [Request for Funeral Blessing](/files/documents/Request for Funeral Blessing.doc)
+
 
 ## Schedule of Devotions
 
