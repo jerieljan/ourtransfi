@@ -4,7 +4,7 @@ layout: default-md
 title: Liturgical Services
 description: Services available in the Transfiguration of Christ Parish.
 subtext: Services available in the Transfiguration of Christ Parish.
-style: "background-image: url('/images/header-3.jpg')"
+style: "background-color: #055"
 icon: "http://www.ourtransfi.org/images/header-3.jpg"
 permalink: /services/
 

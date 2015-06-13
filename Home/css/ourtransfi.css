@@ -80,6 +80,20 @@ body {
     color: #989898;
 }
 
+.accented {
+    background-color: #428bca;
+    color: #fff;
+}
+
+.accented a {
+    color: #fff;
+}
+
+.accented a:hover {
+    color:#fff;
+}
+
+
 .attribution {
     font-size: 10px;
     font-style: italic;

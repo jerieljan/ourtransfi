@@ -4,7 +4,7 @@ layout: default-md
 title: Sacrament of Matrimony
 description: Details about weddings in the Transfiguration of Christ Parish.
 subtext: Details about weddings in the Transfiguration of Christ Parish.
-style: "background-image: url('/images/header-3.jpg')"
+style: "background-color: #800"
 icon: "http://www.ourtransfi.org/images/header-3.jpg"
 permalink: /services/matrimony/
 
