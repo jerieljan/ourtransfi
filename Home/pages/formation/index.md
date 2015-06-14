@@ -10,8 +10,8 @@ permalink: /formation/
 
 ---
 
-# Sorry!
+# Formation Articles
 
-The content for this page is not yet ready. We'll have it up soon!
+From time to time, articles, letters and announcements by the clergy are featured here. 
 
-Return to the [home page](/) here.
+- [Year of the Poor](/formation/posts/year-of-the-poor-2015)
