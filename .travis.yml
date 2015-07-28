@@ -16,4 +16,6 @@ deploy:
 
 env:
   global:
+  - REPO="jerieljan/ourtransfi"
+  - CI_HOME=`pwd`/$REPO
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

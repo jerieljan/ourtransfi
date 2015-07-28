@@ -4,16 +4,13 @@
 # This script is used to prepare the project using Bundler (Ruby)
 # then builds the site and htmlproofs it.
 
-DIR=`pwd`
 DEP="Home"
 
 # Start up Bundler
-cd ..
+cd ${CI_HOME
 bundle install
 
 # Run Jekyll
-cd ${DEP}
+cd ${CI_HOME}/${DEP}
 jekyll build
 htmlproof ./_site
-cd ${DIR}
-
