@@ -7,10 +7,10 @@
 DEP="Home"
 
 # Start up Bundler
-cd ${CI_HOME}
+cd ..
 bundle install
 
 # Run Jekyll
-cd ${CI_HOME}/${DEP}
+cd ${DEP}
 jekyll build
 htmlproof ./_site
