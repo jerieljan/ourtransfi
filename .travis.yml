@@ -7,7 +7,8 @@ deploy:
   local-dir: Home
   access_key_id: ${AWS_S3_ACCESS_KEY}
   secret_access_key: ${AWS_S3_SECRET_KEY}
-  bucket: "www.ourtransfi.org"
+  bucket: www.ourtransfi.org
+  region: ap-southeast-1
   acl: public_read
   on:
     branch: development
