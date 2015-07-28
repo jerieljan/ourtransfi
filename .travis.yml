@@ -4,7 +4,7 @@ script: _scripts/build.sh
 
 deploy:
   provider: s3
-  local-dir: Home
+  local-dir: Home/
   access_key_id: ${AWS_S3_ACCESS_KEY}
   secret_access_key: ${AWS_S3_SECRET_KEY}
   bucket: "www.ourtransfi.org"
@@ -13,6 +13,7 @@ deploy:
   acl: public-read
   on:
     branch: development
+  skip_cleanup: true
 
 env:
   global:
