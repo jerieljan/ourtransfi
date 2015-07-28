@@ -1,9 +1,33 @@
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     letter-spacing: -0.60px;
-    font-size: 150%;
+    line-height: 200%;
+    font-size: 170%;
     text-rendering: optimizeLegibility;
     padding-bottom: 0;
+    padding-top: 0;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 24px;
+}
+
+.backtext h1, h2 {
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 250%;
+    margin-bottom: 48px;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+h3 {
+    font-size: 135%
 }
 
 * {
@@ -12,6 +36,11 @@ body {
     -ms-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-bottom: 0px;
 }
 
 .navbar-brand {
@@ -52,9 +81,6 @@ body {
 
 #navigation-bar {
     background-color: #ffffff;
-    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.55);
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
 #map-canvas {
@@ -62,11 +88,11 @@ body {
 }
 
 .nav>li {
-    border-bottom: 5px solid #fff;
+    /*border-bottom: 5px solid #fff;*/
 }
 
 .nav .active {
-    border-bottom: 5px solid #428bca;
+    /*border-bottom: 5px solid #428bca;*/
     /*background-color: #a2c5b4;*/
 }
 
@@ -77,6 +103,20 @@ body {
     background-color: #3e3e3e;
     color: #989898;
 }
+
+.accented {
+    background-color: #428bca;
+    color: #fff;
+}
+
+.accented a {
+    color: #fff;
+}
+
+.accented a:hover {
+    color:#fff;
+}
+
 
 .attribution {
     font-size: 10px;

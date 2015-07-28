@@ -1,4 +1,4 @@
-# OurTransfi
+# OurTransfi [![Build Status](https://travis-ci.org/jerieljan/ourtransfi.svg?branch=development)](https://travis-ci.org/jerieljan/ourtransfi)
 
 The home page of the Transfiguration of Christ Parish.
 http://www.ourtransfi.org

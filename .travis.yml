@@ -1,0 +1,22 @@
+language: ruby
+rvm: 2.0.0
+script: _scripts/build.sh
+
+deploy:
+  provider: s3
+  local-dir: Home/_site/
+  access_key_id: ${AWS_S3_ACCESS_KEY}
+  secret_access_key: ${AWS_S3_SECRET_KEY}
+  bucket: "www.ourtransfi.org"
+  endpoint: "www.ourtransfi.org.s3-website-ap-southeast-1.amazonaws.com"
+  region: "ap-southeast-1"
+  acl: public-read
+  on:
+    branch: development
+  skip_cleanup: true
+
+env:
+  global:
+  - REPO="jerieljan/ourtransfi"
+  - CI_HOME=`pwd`/$REPO
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

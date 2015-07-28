@@ -3,7 +3,7 @@ layout: base
 icon: /images/image-01a.jpg
 ---
 
-<body data-spy="scroll" data-target="#navbar-links" data-offset="90">
+<body data-target="#navbar-links" data-offset="90">
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
         href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -31,33 +31,91 @@ icon: /images/image-01a.jpg
     <span itemprop="url" content="{{ site.url }}"></span>
 </div>
 
-<div class="navbar navbar-fixed-top" role="navigation" id="navigation-bar">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#whats-new">Transfiguration of Christ
-                Parish</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-links">
-            <ul class="nav navbar-nav">
-                <li><a href="#whats-new">What's New</a></li>
-                <li><a href="#about-parish">About</a></li>
-                <li><a href="#schedules">Schedules</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
-                <li><a href="/calendar">Calendar</a></li>
-                <li><a href="/wordoflife">Word of Life</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+{% include header-navigation.html %}
+
 <div id="transfi-carousel-1" class="carousel slide" data-ride="carousel">
     {% include comp-carousel.html %}
+</div>
+
+<div class="container hidden-md hidden-lg" style="margin-top: 64px; margin-bottom: 64px;">
+
+    <h2>Liturgical Services</h2>
+    <p>For mass schedules, wedding inquiries, baptismal rites and more, click here to view <a href="/services/">Mass Schedules and Liturgical Services</a> available in the Parish.</p>
+
+</div>
+
+<div class="container accented hidden-xs hidden-sm" style="margin-top: 64px; margin-bottom: 64px; padding: 24px; border-radius: 10px">
+
+    <a href="#section-2">
+        <div class="col-md-4 text-center">
+            <h2>About the Parish</h2>
+            <p>The Transfiguration of Christ Parish is relatively a new parish in the Diocese of Antipolo...</p>
+            <p>Click here to scroll down and read more.</p>
+        </div>
+    </a>
+
+    <a href="/services/">
+    <div class="col-md-4 text-center">
+        <h2>Mass Schedules and Liturgical Services</h2>
+        <p>The Parish regularly holds the sacraments, blessings and devotions by schedule, by occasion and upon reservation. Click here to know more about the sacraments and schedules.</p>
+        <p>Forms for various sacraments and blessings are also available for download.</p>
+    </div>
+    </a>
+
+    <a href="http://www.facebook.com/ourtransfi">
+    <div class="col-md-4 text-center">
+        <h2>Upcoming Events</h2>
+        <p>The official page of the Transfiguration of Christ Parish holds announcements towards upcoming and ongoing events in the community.</p>
+        <p>Click here to visit the page in Facebook.</p>
+    </div>
+    </a>
+
+
+
+    <!--<div class="col-sm-12 col-md-6 col-md-offset-3">-->
+    <!--{% include event-highlight.html %}-->
+    <!--</div>-->
+
+
+</div>
+
+<div class="container-fluid">
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/1.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/2.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/3.jpg">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="images/gallery/4.jpg">
+        </a>
+    </div>
+</div>
+
+<div class="jumbotron section" id="section-2" style="padding-top: 300px">
+    <div class="container backtext">
+        <div class="col-md-offset-6" style="text-align: right">
+            <h2>Vision</h2>
+
+            <p>"Isang Sambayanang Katoliko sa Diyosesis ng Antipolo na binubuo ng
+                mga Munting Sambayanang Katoliko na hinuhubog sa pagbibiyaya at pagtawag ng
+                Ebanghelyo
+                -- sumasaksi sa pananampalataya, pagmamahalan, pagkakaisa, pagdadamayan at pagiging
+                mabuting tagapangasiwa sa mga kaloob ng Diyos -- upang matugunan ang pangangailangan
+                ng
+                sangnilikha at makamit ang paghahari ng Diyos sa kanilang piling."</p>
+        </div>
+    </div>
 </div>
 
 <div class="container" style="padding-bottom: 32px">
@@ -86,95 +144,14 @@ icon: /images/image-01a.jpg
         </ul>
     </div>
 
-    <div class="col-xs-12 col-md-6 col-md-offset-3">
-        <a class="btn btn-primary center-block btn-lg" role="button"
-           href="http://news.ourtransfi.org" style="font-size: x-large">News and
-            Announcements</a>
-    </div>
-</div>
 
 
-<div class="container-fluid">
-    <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-            <img src="images/gallery/1.jpg">
-        </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-            <img src="images/gallery/2.jpg">
-        </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-            <img src="images/gallery/3.jpg">
-        </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-            <img src="images/gallery/4.jpg">
-        </a>
-    </div>
-</div>
-
-<div class="jumbotron section" id="section-2" style="padding-top: 300px">
-    <div class="container backtext">
-        <div class="col-md-offset-6" style="text-align: right">
-            <h2>Mission</h2>
-
-            <p>"Isang Sambayanang Katoliko sa Diyosesis ng Antipolo na binubuo ng
-                mga Munting Sambayanang Katoliko na hinuhubog sa pagbibiyaya at pagtawag ng
-                Ebanghelyo
-                -- sumasaksi sa pananampalataya, pagmamahalan, pagkakaisa, pagdadamayan at pagiging
-                mabuting tagapangasiwa sa mga kaloob ng Diyos -- upang matugunan ang pangangailangan
-                ng
-                sangnilikha at makamit ang paghahari ng Diyos sa kanilang piling."</p>
-        </div>
-    </div>
-</div>
-
-<div class="container" style="padding-bottom: 32px">
-    <div class="col-sm-12"><h2 id="schedules">Liturgical Services</h2></div>
-
-    <!--<div class="col-sm-12 col-md-6 col-md-offset-3">-->
-        <!--{% include event-highlight.html %}-->
+    <!--<div class="col-xs-12 col-md-6 col-md-offset-3">-->
+        <!--<a class="btn btn-primary center-block btn-lg" role="button"-->
+           <!--href="http://www.facebook.com/ourtransfi" style="font-size: x-large">News and-->
+            <!--Announcements</a>-->
     <!--</div>-->
-
-    <div class="col-md-6">
-
-        <h3>Parish Calendar</h3>
-        The Parish Calendar can be viewed fully <a href="calendar/">here.</a>
-
-
-        <h3>Sunday Masses</h3>
-        Masses are available during:
-        <ul>
-            <li>6:30 am</li>
-            <li>8:00 am</li>
-            <li>9:30 am</li>
-            <li>5:00 pm</li>
-            <li>6:30 pm</li>
-        </ul>
-
-        <h3>Saturday Mass (Anticipated Mass)</h3>
-        Saturday masses are held at 6:00 pm.
-
-        <h3>Daily Mass</h3>
-        Daily masses are held at 6:15 am, from Monday to Saturday.
-        <br/>Masses are also held at 6:00 pm every Wednesday and the first Friday of the month.
-
-        <h3>Baptism</h3>
-        Baptismal arrangements are available every Sunday at 11:30 pm.
-
-        <p>For other services, please inquire at the Parish Office.</p>
-    </div>
-    <div class="col-md-6">
-        <h3>Events</h3>
-        <iframe class="col-sm-12" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=650&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=l1ah0n0m59630t0hra95t475p8%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Asia%2FManila" style=" border-width:0 " height="650" frameborder="0" scrolling="no"></iframe>
-    </div>
-
 </div>
-
 
 <div class="container-fluid">
     <div class="col-xs-6 col-md-3">
@@ -199,9 +176,10 @@ icon: /images/image-01a.jpg
     </div>
 </div>
 
-<div class="jumbotron section" id="section-3" style="padding-top: 750px">
+<div class="jumbotron section" id="section-3">
     <div class="container backtext">
-        <div class="col-md-offset-6" style="text-align: right">
+        <div class="col-sm-12 center-block text-center embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2v1qf2ZSa7s" allowfullscreen style="padding: 32px; background-color: rgba(0,0,0,0.75)"></iframe>
         </div>
     </div>
 </div>
@@ -214,15 +192,15 @@ icon: /images/image-01a.jpg
             <br/><span style="font-weight: bold">{{ site.contact }}</span>
             <br/>You can also contact us by leaving a message on our Facebook page.</p>
 
-        <p>You can also email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-            <br/><span style="font-weight: bold">Feedback is highly appreciated!</span></p>
         <a class="btn btn-primary" role="button"
            href="http://www.facebook.com/ourtransfi">facebook.com/ourtransfi</a>
 
+        <p>Please take note that various liturgical services, such as <a href="/services/#baptism">baptismal rites</a> and <a href="/services/#matrimony-weddings">weddings</a> are all detailed further in the <a href="/services/">Liturgical Services</a> page. </p>
+
         <h2>Location</h2>
 
-        <p>The Transfiguration of Christ Parish is located at the M.L. Quezon St. Ext. in Antipolo
-            City, Rizal. For convenience, refer to the Google Map on the right, or click the button
+        <p>The Transfiguration of Christ Parish is located at the <strong>M.L. Quezon St. Ext. in Antipolo
+            City, Rizal.</strong> For convenience, refer to the Google Map on the right, or click the button
             below to view it in Google Maps.</p>
         <a class="btn btn-default" role="button"
            href="https://www.google.com.ph/maps/place/Transfiguration+Of+Christ+Parish/@{{ site.address_latitude }} , {{ site.address_longitude }},18z/data=!4m2!3m1!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631?hl=en">Navigate
