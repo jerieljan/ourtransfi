@@ -2,10 +2,6 @@ language: ruby
 rvm: 2.0.0
 script: _scripts/build.sh
 
-branches:
-  only:
-  - development
-
 deploy:
   provider: s3
   local-dir: Home
@@ -13,6 +9,8 @@ deploy:
   secret_access_key: ${AWS_S3_SECRET_KEY}
   bucket: "www.ourtransfi.org"
   acl: public_read
+  on:
+    branch: development
 
 env:
   global:
