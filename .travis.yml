@@ -10,7 +10,7 @@ deploy:
   bucket: "www.ourtransfi.org"
   endpoint: "www.ourtransfi.org.s3-website-ap-southeast-1.amazonaws.com"
   region: "ap-southeast-1"
-  acl: public-read
+  acl: public
   on:
     branch: development
 
