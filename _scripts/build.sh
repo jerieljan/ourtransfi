@@ -7,7 +7,7 @@
 DEP="Home"
 
 # Start up Bundler
-cd ${CI_HOME
+cd ${CI_HOME}
 bundle install
 
 # Run Jekyll
