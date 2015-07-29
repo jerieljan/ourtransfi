@@ -12,7 +12,7 @@ deploy:
   region: "ap-southeast-1"
   acl: public-read
   on:
-    branch: development
+    branch: master
   skip_cleanup: true
 
 env:
