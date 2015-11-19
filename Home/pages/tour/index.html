@@ -1,0 +1,73 @@
+---
+layout: default
+
+title: Parish Tour
+description: View the Parish in 360 degrees!
+subtext: View the Parish in 360 degrees!
+style: "background-color: orange"
+permalink: /tour/
+
+---
+<link rel="stylesheet" href="/pages/tour/libs/photo-sphere-viewer.min.css"/>
+<script src="/pages/tour/libs/three.min.js"></script>
+<script src="/pages/tour/libs/photo-sphere-viewer.min.js"></script>
+
+<div class="container" style="padding-bottom: 32px">
+    <div class="col-sm-12" style="padding-bottom: 32px">
+        Navigate:
+            <a href="#" class="btn btn-default" id="pano-1">Parish Grounds 1</a>
+            <a href="#" class="btn btn-default" id="pano-2">Parish Grounds 2</a>
+            <a href="#" class="btn btn-default" id="pano-3">Outside</a>
+            <a href="#" class="btn btn-default" id="pano-4">Inside</a>
+            <a href="#" class="btn btn-default" id="pano-5">Columbarium</a>
+    </div>
+
+
+    <div class="col-sm-12">
+        <div id="photosphere" class="embed-responsive embed-responsive-16by9"></div>
+    </div>
+
+
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#pano-1").click(function () {
+            loadPhotosphere('/pages/tour/pano/1-parish-grounds.jpg');
+        });
+        $("#pano-2").click(function () {
+            loadPhotosphere('/pages/tour/pano/2-parish-grounds.jpg');
+        });
+        $("#pano-3").click(function () {
+            loadPhotosphere('/pages/tour/pano/3-parish-outside.jpg');
+        });
+        $("#pano-4").click(function () {
+            loadPhotosphere('/pages/tour/pano/4-parish-inside.jpg');
+        });
+        $("#pano-5").click(function () {
+            loadPhotosphere('/pages/tour/pano/5-columbarium.jpg');
+        });
+    });
+
+    var PSV = new PhotoSphereViewer({
+        panorama: '/pages/tour/pano/1-parish-grounds.jpg',
+        container: document.getElementById('photosphere'),
+        navbar: true,
+        caption: 'The Transfiguration of Christ Parish <b>&copy; jerieljan</b>',
+        default_fov: 70
+
+    });
+
+    function loadPhotosphere(url) {
+        PSV = new PhotoSphereViewer({
+            panorama: url,
+            container: document.getElementById('photosphere'),
+            navbar: true,
+            caption: 'The Transfiguration of Christ Parish <b>&copy; jerieljan</b>',
+            default_fov: 70,
+            usexmpdata: true
+
+        });
+    }
+</script>
