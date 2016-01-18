@@ -30,18 +30,20 @@ and appropriate templating references.
 ## Deployment
 
 OurTransfi can easily be deployed in any web server, or any service as a platform that allows
-static and/or dynamic content for its web servers.
+static and/or dynamic content for its web servers. `jekyll serve` on its own is already functional for other users to view, provided that the machine is exposed to the internet.
 
-`jekyll serve` on its own is already functional for other users to view, provided that the machine is exposed to the internet.
 You can either use that or any of your favorite web server applications.
 
 By default, OurTransfi is hosted on Amazon's widely-available, affordable and speedy 
 Simple Storage Service.
 
-Just configure Amazon CLI, apply the right key configuration for deploying onto your own account.
+- Just configure Amazon CLI, apply the right key configuration for deploying onto your own account.
 Run `jekyll build` then run `sync.sh` and it should deploy all new changes to the provided address 
 in `sync.sh`
 
+- The repository also includes the files needed to have the project deployed through Travis. Simply supply the needed keys for
+AWS in your own setup and Travis should deploy the project on your S3 bucket whenever pull requests or changes are added onto
+the master branch.
 
 ## License 
 
