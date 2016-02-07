@@ -39,31 +39,38 @@ permalink: /services/matrimony/
 
 Weddings in the Parish are held on **Tuesdays to Saturdays only.**
 
-- 9:00 AM
-- 11:00 AM
+- 8:30 AM
+- 10:30 AM
+- 2:00 PM
 - 4:00 PM
 
-## Wedding Rates
+## Wedding Rates (updated 2/7/2016)
 
-### Php 7,000.00
+### Php 7,200.00
 
-- Mass
+- Wedding Mass
 - Candles
-- Red Carpet
-- Use of Chandeliers
-- Extra Electricity (for video coverage purposes)
+- Use of red carpet
+- Use of chandeliers
+- Use of extra electricity (for video coverage purposes)
 
-### Php 4,000.00
+### Php 5,700.00
 
-- Mass
+- Wedding Mass
 - Candles
-- Red Carpet
+- Use of red carpet
+- Use of extra electricity (for video coverage purposes)
 
-### Php 1,000.00
+### Php 3,000.00
 
-- No Mass
-- Wedding Rites Only
-- Candle
+- No Wedding Mass, Wedding Rites Only
+- Candles
+
+Note:
+
+1. Flower arrangement NOT INCLUDED
+
+2. Additional Php 1,000.00 for Parish Wedding Choir (Optional)
 
 
 ## Other Matters
