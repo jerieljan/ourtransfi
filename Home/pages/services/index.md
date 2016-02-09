@@ -7,7 +7,7 @@ subtext: Services available in the Transfiguration of Christ Parish.
 style: "background-color: #055"
 icon: "/images/header-3.jpg"
 permalink: /services/
-W
+
 ---
 
 
