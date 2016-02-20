@@ -121,7 +121,7 @@ each message.
 
 [For more details, click here for the Wedding Brochure and Requirements.](/services/matrimony)
 
-- Weddings at 9:00 am, 11:00 am, 4:00 pm
+- Weddings at 8:30 AM, 10:30 AM, 2:00 PM and 4:00 PM
 - Tuesdays to Saturdays only
 
 Downloads:
