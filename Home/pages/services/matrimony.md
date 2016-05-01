@@ -70,7 +70,7 @@ Note:
 
 1. Flower arrangement NOT INCLUDED
 
-2. Additional Php 1,000.00 for Parish Wedding Choir (Optional)
+2. Additional Php 1,500.00 for Parish Wedding Choir (Optional)
 
 
 ## Other Matters
