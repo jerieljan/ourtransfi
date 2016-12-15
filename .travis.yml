@@ -1,5 +1,5 @@
 language: ruby
-rvm: 2.0.0
+rvm: 2.2.2
 script: _scripts/build.sh
 
 deploy:
