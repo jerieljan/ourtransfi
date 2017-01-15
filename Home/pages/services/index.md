@@ -124,10 +124,10 @@ each message.
 - Weddings at 8:30 AM, 10:30 AM, 2:00 PM and 4:00 PM
 - Tuesdays to Saturdays only
 
-Downloads:
+Downloads: (updated January 15, 2017)
 
 - [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.doc)
-- [Application Form](/files/documents/Matrimony - Application Form.doc)
+- [Application Form](/files/documents/Matrimony - Application Form.docx)
 
 ## Holy Orders
 
