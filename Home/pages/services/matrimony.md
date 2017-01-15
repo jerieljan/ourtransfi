@@ -10,18 +10,18 @@ permalink: /services/matrimony/
 
 ---
 
-# Downloadable Forms
+# Downloadable Forms (updated January 15, 2017)
 
 - [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.doc)
-- [Application Form](/files/documents/Matrimony - Application Form.doc)
+- [Application Form](/files/documents/Matrimony - Application Form.docx)
 
 # Wedding Reminders and Guidelines
 
 ## Requirements
 
-- **Baptismal and Confirmation Certificate**: Newly Issued, for "Marriage Purposes only" original copy.
-- **Marriage License** from the City Civil Registrar: original copy or *Marriage Contract if Civilly Married.*
-- **Certificate of No Marriage (CENOMAR)** from NSO, photocopy only.
+- **Baptismal and Confirmation Certificate**: Newly Issued, for "Marriage Purposes only" original copy. (6 months validity)
+- **Marriage License** from the City Civil Registrar: original copy or *Marriage Contract if Civilly Married.* (license is valid for 4 months only.)
+- **Certificate of No Marriage (CENOMAR)** from NSO, photocopy only. (4 months validity)
 - **Marriage Banns and Permits**
 - **Photocopy of Birth Certificates and 1x1 picture** (couple)
 - **Apply at least two or three months before the wedding date at the Parish Office.**
@@ -60,11 +60,6 @@ Weddings in the Parish are held on **Tuesdays to Saturdays only.**
 - Candles
 - Use of red carpet
 - Use of extra electricity (for video coverage purposes)
-
-### Php 3,000.00
-
-- No Wedding Mass, Wedding Rites Only
-- Candles
 
 Note:
 
