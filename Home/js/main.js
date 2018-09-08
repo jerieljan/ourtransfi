@@ -28,8 +28,8 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
+//Uncomment to enable the Google Map (disabled due to lack of an API key)
+//google.maps.event.addDomListener(window, 'load', initialize);
 
 /**
  * JS Smooth Scrolling - CSS-Tricks (http://css-tricks.com/snippets/jquery/smooth-scrolling/)
