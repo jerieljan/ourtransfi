@@ -14,7 +14,7 @@ Various application forms for [liturgical services](/services/) are available he
 
 - [Talaan ng Binyag](/files/documents/Talaan ng Binyag.doc)
 - [Confirmation - Application Form](/files/documents/Confirmation - Application Form.doc)
-- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.doc)
+- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.docx)
 - [Application Form](/files/documents/Matrimony - Application Form.docx)
 - [Request for Blessing](/files/documents/Request for Blessing.doc)
 - [Request for Funeral Blessing](/files/documents/Request for Funeral Blessing.doc)

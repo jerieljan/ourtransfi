@@ -12,7 +12,7 @@ permalink: /services/matrimony/
 
 # Downloadable Forms (updated January 15, 2017)
 
-- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.doc)
+- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.docx)
 - [Application Form](/files/documents/Matrimony - Application Form.docx)
 
 # Wedding Reminders and Guidelines

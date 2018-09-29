@@ -126,7 +126,7 @@ each message.
 
 Downloads: (updated January 15, 2017)
 
-- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.doc)
+- [Basic Requirements and General Information](/files/documents/Matrimony - Basic Requirements and General Information.docx)
 - [Application Form](/files/documents/Matrimony - Application Form.docx)
 
 ## Holy Orders
