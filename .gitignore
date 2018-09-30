@@ -1,5 +1,8 @@
 # Created by http://www.gitignore.io
 
+# MacOS garbage
+.DS_Store
+**/.DS_Store
 #!! ERROR: intell is undefined. Use list command to see defined gitignore types !!#
 
 ### Intellij ###
