@@ -20,16 +20,36 @@ when running in newer environments.**
 ## Quick Start
 
 - Clone this repository.
-- Use `jekyll` to preview / build the static site.
-- Use the `_scripts/` to build and deploy the site in AWS S3
-  - You'll need to provide valid credentials and a target.
-- Alternately, you can submit a *pull request* to `master` and *Travis-CI* will handle
-  the deployment for you.
+- Load up Jekyll to build or serve (display locally) the site.
+
+```bash
+# Go to the Home directory where all site assets are kept
+cd Home
+
+# Build using Jekyll
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -it jekyll/builder:3.8 \
+  jekyll build
+
+# ...or Serve using Jekyll
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -p 80:4000 \
+  -it jekyll/builder:3.8 \
+  jekyll serve
+
+# ..or if you have a full Jekyll setup, just run...
+cd ourtransfi
+./_scripts/build.sh
+```
+
+**NOTE: All text beyond this point was written a long time ago (2015)
 
 ## Development
 
 You will need a proper Jekyll setup for development, along with its requirements.
-Jekyll is used to compile and generate Markdown and HTML + Templates into a proper static 
+Jekyll is used to compile and generate Markdown and HTML + Templates into a proper static
 website ready for deployment.
 
 Please read the Jekyll documents at http://www.jekyllrb.com 
