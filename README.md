@@ -7,12 +7,24 @@ The parish website works as a fully-static web project with no
 serviceable web service components, intended for deployment on
 cheap static hosting and content that doesn't need dynamic updates.
 
+**NOTE: This repository is old (since 2015/2016) and may encounter issues
+when running in newer environments.**
+
 ## Pre-requisites and Libraries
 
 - Jekyll - used for compiling and building the site
 - jQuery - as per usual
 - Bootstrap - for UI, responsiveness and layouts
 - AWS CLI - for quick deployment on Amazon S3, but is not necessary.
+
+## Quick Start
+
+- Clone this repository.
+- Use `jekyll` to preview / build the static site.
+- Use the `_scripts/` to build and deploy the site in AWS S3
+  - You'll need to provide valid credentials and a target.
+- Alternately, you can submit a *pull request* to `master` and *Travis-CI* will handle
+  the deployment for you.
 
 ## Development
 
