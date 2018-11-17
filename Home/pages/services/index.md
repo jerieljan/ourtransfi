@@ -45,7 +45,7 @@ is celebrated every Sunday at 10:00 am. The average number of Children baptized 
 
 Solo Baptism is also accepted anytime during the week except Mondays and Sundays.
 
-Download: [Talaan ng Binyag](/files/documents/Talaan ng Binyag.doc) Application Form
+Download: [Talaan ng Binyag](/files/documents/Talaan ng Binyag.docx) Application Form
 
 ## Reconciliation (Confession)
 
