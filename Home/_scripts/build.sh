@@ -6,7 +6,7 @@
 
 # This script assumes that you are running it while in the project's base directory, not the scripts folder.
 
-DEP="Home"
+DEP="."
 
 # Start up Bundler
 echo 'Running bundler'

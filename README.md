@@ -38,8 +38,15 @@ docker run --rm \
   -p 80:4000 \
   -it jekyll/builder:3.8 \
   jekyll serve
+```
 
-# ..or if you have a full Jekyll setup, just run...
+Alternately...
+
+```bash
+# ..or run a Ruby setup...
+gem install --user-install bundler jekyll html-proofer
+
+# then run...
 cd ourtransfi
 ./_scripts/build.sh
 ```
